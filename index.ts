@@ -150,7 +150,7 @@ class GenerateAPICollection {
           request: {
             method: "POST",
             url: {
-              raw: `http://localhost:3000/${endpoint}`,
+              raw: `http://localhost:3000${endpoint}`,
               protocol: "http",
               host: ["localhost"],
               port: 3000,
@@ -203,7 +203,7 @@ class GenerateAPICollection {
           request: {
             method: "GET",
             url: {
-              raw: `http://localhost:3000/${endpoint}`,
+              raw: `http://localhost:3000${endpoint}`,
               protocol: "http",
               host: ["localhost"],
               port: 3000,
@@ -237,7 +237,7 @@ class GenerateAPICollection {
           request: {
             method: "PATCH",
             url: {
-              raw: `http://localhost:3000/${endpoint}`,
+              raw: `http://localhost:3000${endpoint}`,
               protocol: "http",
               host: ["localhost"],
               port: 3000,
@@ -281,7 +281,7 @@ class GenerateAPICollection {
           request: {
             method: "DELETE",
             url: {
-              raw: `http://localhost:3000/${endpoint}`,
+              raw: `http://localhost:3000${endpoint}`,
               protocol: "http",
               host: ["localhost"],
               port: 3000,

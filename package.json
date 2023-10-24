@@ -1,7 +1,14 @@
 {
   "name": "api-collections-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Project for auto generating API collection",
+  "keywords": [
+    "api",
+    "collection",
+    "generator",
+    "nestjs",
+    "api collection"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "tsc -p ."
