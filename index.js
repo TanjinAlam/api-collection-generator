@@ -138,7 +138,7 @@ var GenerateAPICollection = /** @class */ (function () {
             }
         });
     };
-    GenerateAPICollection.prototype.processComponents = function () {
+    GenerateAPICollection.prototype.generateAPICollection = function () {
         for (var endpoint in this.document.paths) {
             if (this.document.paths[endpoint].post) {
                 var tempRequestData = {

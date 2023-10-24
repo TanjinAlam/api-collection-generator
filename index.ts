@@ -142,7 +142,7 @@ class GenerateAPICollection {
     });
   }
 
-  processComponents() {
+  generateAPICollection() {
     for (const endpoint in this.document.paths) {
       if (this.document.paths[endpoint].post) {
         const tempRequestData = {

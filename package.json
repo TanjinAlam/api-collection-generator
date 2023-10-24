@@ -1,12 +1,16 @@
 {
-  "name": "export-api-metadata",
+  "name": "api-collection-generator",
   "version": "1.0.0",
-  "description": "tryinh",
+  "description": "Project for auto generating API collection",
   "main": "index.js",
   "scripts": {
     "test": "tsc -p ."
   },
-  "author": "",
+  "author": "Tanjin Alam",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TanjinAlam/api-collection-generator.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.8",
