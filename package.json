@@ -1,6 +1,6 @@
 {
   "name": "api-collections-generator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Project for auto generating API collection",
   "keywords": [
     "api",
