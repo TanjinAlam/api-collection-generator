@@ -1,6 +1,6 @@
 {
   "name": "api-collection-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Project for auto generating API collection",
   "main": "index.js",
   "scripts": {
