@@ -11,15 +11,15 @@ To use the API Collection Generator, you can install it via npm:
 ## Installation
 
 ```bash
-npm install api-collection-generator
+npm install api-collections-generator
 ```
 
-# api-collection-generator
+# api-collections-generator
 
 **Example How To Use It Within Nestjs Main.ts**
 
 ```js
-import GenerateAPICollection from "api-collection-generator";
+import GenerateAPICollection from "api-collections-generator";
 const config = new DocumentBuilder()
   .setTitle("Your API")
   .setDescription("API description")
