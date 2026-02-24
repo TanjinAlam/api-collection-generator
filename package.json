@@ -1,17 +1,23 @@
 {
   "name": "api-collections-generator",
-  "version": "0.1.3",
-  "description": "Project for auto generating API collection",
+  "version": "1.0.0",
+  "description": "Generate Postman-compatible API collections from Swagger/OpenAPI documentation. Supports all HTTP methods, path/query params, request bodies, auth, and more.",
   "keywords": [
     "api",
     "collection",
     "generator",
     "nestjs",
-    "api collection"
+    "swagger",
+    "openapi",
+    "postman",
+    "api collection",
+    "postman collection"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "tsc -p ."
+    "build": "tsc -p .",
+    "prepublishOnly": "npm run build"
   },
   "author": "Tanjin Alam",
   "repository": {
@@ -19,5 +25,8 @@
     "url": "https://github.com/TanjinAlam/api-collection-generator.git"
   },
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
 }
